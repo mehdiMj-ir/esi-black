@@ -1,6 +1,15 @@
 body {
   overflow: hidden;
 }
+.container {
+  position: absolute;
+  text-align: center;
+  font-size: 1.25vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: load 2s ease-out;
+}
 
 .holder {
   width: 500px;
